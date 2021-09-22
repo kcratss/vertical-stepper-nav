@@ -1,5 +1,5 @@
 {
-  "name": "vertical-stepper-nav",
+  "name": "spc-vertical-stepper-nav",
   "version": "1.0.2",
   "description": "An easy to use vertical stepper component for your React projects! Currently W.I.P. Contributions/Feedback accepted!",
   "main": "dist/index.js",
@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/priyankark/vertical-stepper-nav.git"
+    "url": "git+https://github.com/kcratss/multistep-wizard-fluent.git"
   },
   "keywords": [],
-  "author": "Priyankar Kumar",
+  "author": "Kunal Chaudhary",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/priyankark/vertical-stepper-nav/issues"
+    "url": "https://github.com/kcratss/vertical-stepper-nav/issues"
   },
-  "homepage": "https://github.com/priyankark/vertical-stepper-nav#readme",
+  "homepage": "https://github.com/kcratss/vertical-stepper-nav#readme",
   "devDependencies": {
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.2",

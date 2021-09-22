@@ -1,7 +1,7 @@
 # vertical-stepper-nav
 A simple to use vertical stepper component for your React projects!
 
-NPM package link:  https://www.npmjs.com/package/vertical-stepper-nav
+NPM package link:  https://www.npmjs.com/package/spc-vertical-stepper-nav
 
 Use the example from [CodeSandbox](https://codesandbox.io/s/recursing-morse-3h7oo?file=/src/App.tsx)
 
