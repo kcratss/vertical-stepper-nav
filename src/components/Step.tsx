@@ -7,6 +7,7 @@ export interface IStep {
   onClickHandler?: (
     event?: React.MouseEvent<HTMLDivElement>,
   ) => void | undefined;
+  isDesktop:boolean;
 }
 
 const buttonContainerStyles: CSS.Properties = {
@@ -22,12 +23,14 @@ export const Step = ({
   statusColor,
   statusCircleSize,
   onClickHandler,
+  isDesktop
 }: IStep): JSX.Element => {
   const circleStyles = {
     borderRadius: statusCircleSize ?? 16,
     width: statusCircleSize ?? 16,
     height: statusCircleSize ?? 16,
-    border: '2px solid #E1E1E1',
+    border: '1px solid',
+    borderColor: statusColor && statusColor !== 'white' ? statusColor:'#E1E1E1',
     background: statusColor ?? 'white',
   };
 
@@ -47,7 +50,7 @@ export const Step = ({
       <div>
         <div style={circleStyles} />
       </div>
-      <div style={{paddingBottom: 2}}>{stepContent()}</div>
+      {isDesktop ? <div style={{paddingBottom: 2}}>{stepContent()}</div>:''}
     </div>
   );
 };
