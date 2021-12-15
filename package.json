@@ -1,6 +1,6 @@
 {
   "name": "spc-vertical-stepper-nav",
-  "version": "1.0.2",
+  "version": "1.0.8",
   "description": "An easy to use vertical stepper component for your React projects! Currently W.I.P. Contributions/Feedback accepted!",
   "main": "dist/index.js",
   "scripts": {
@@ -57,6 +57,7 @@
     "dist"
   ],
   "dependencies": {
-    "eslint-plugin-jsx-a11y": "^6.4.1"
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "font-awesome": "^4.7.0"
   }
 }
